@@ -38,8 +38,8 @@ render_header('Dashboard');
                         <p class="text-secondary mb-0">This is your profile overview and the community directory.</p>
                     </div>
                     <div class="d-flex gap-2">
-                        <a href="edit_profile.php" class="btn btn-primary">Edit Profile</a>
-                        <a href="delete_profile.php" class="btn btn-outline-danger">Delete Profile</a>
+                        <a href="/gai/edit_profile.php" class="btn btn-primary">Edit Profile</a>
+                        <a href="/gai/delete_profile.php" class="btn btn-outline-danger">Delete Profile</a>
                     </div>
                 </div>
             </div>

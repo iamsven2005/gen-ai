@@ -18,8 +18,8 @@ render_header('Welcome');
                 Complete a 5-step onboarding wizard to set up your account, add your pet details, and connect with other members.
             </p>
             <div class="d-flex flex-wrap gap-2">
-                <a href="onboarding_step1.php" class="btn btn-primary btn-lg">Start Onboarding</a>
-                <a href="login.php" class="btn btn-outline-dark btn-lg">I Already Have an Account</a>
+                <a href="/gai/onboarding_step1.php" class="btn btn-primary btn-lg">Start Onboarding</a>
+                <a href="/gai/login.php" class="btn btn-outline-dark btn-lg">I Already Have an Account</a>
             </div>
         </div>
         <div class="col-lg-5">

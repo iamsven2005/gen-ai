@@ -48,7 +48,7 @@ render_header('Login');
                     <button type="submit" class="btn btn-primary w-100">Login</button>
                 </form>
                 <p class="small text-secondary mt-3 mb-0">
-                    New here? <a href="onboarding_step1.php">Start onboarding</a>
+                    New here? <a href="/gai/onboarding_step1.php">Start onboarding</a>
                 </p>
             </div>
         </div>

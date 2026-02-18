@@ -241,7 +241,7 @@ render_header('Edit Profile');
                     <button type="button" class="btn btn-outline-primary mb-4" id="add-pet">Add Another Pet</button>
 
                     <div class="d-flex justify-content-between">
-                        <a href="dashboard.php" class="btn btn-outline-secondary">Cancel</a>
+                        <a href="/gai/dashboard.php" class="btn btn-outline-secondary">Cancel</a>
                         <button type="submit" class="btn btn-primary">Save Changes</button>
                     </div>
                 </form>

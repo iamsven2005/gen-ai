@@ -51,7 +51,7 @@ render_header('Delete Profile');
                 </p>
                 <form method="post">
                     <div class="d-flex justify-content-between">
-                        <a href="dashboard.php" class="btn btn-outline-secondary">Cancel</a>
+                        <a href="/gai/dashboard.php" class="btn btn-outline-secondary">Cancel</a>
                         <button type="submit" class="btn btn-danger">Delete My Profile</button>
                     </div>
                 </form>
