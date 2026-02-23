@@ -6,7 +6,21 @@ This report evaluates the AI-generated Pet Community Onboarding Wizard applicati
 
 ---
 
-## 1. Prompt Accuracy
+## Question 1: Tool Selection
+
+### Selected gAI Tools and Models
+
+- **GitHub Copilot** (model: GPT-5.2-Codex, per system identity)
+- **Manual review only** for validation; no automated validators or accessibility scanners were run
+
+### Why These Tools
+
+- The assignment centers on evaluating an AI-generated PHP app already present in the workspace, so code review and static inspection were the most direct and reliable methods.
+- GitHub Copilot is purpose-built for code-focused reasoning, which is appropriate for analyzing implementation quality, security, and standards compliance.
+
+---
+
+## Question 2: Prompt Accuracy
 
 ### Instructions Adherence: ✅ **Excellent**
 
@@ -40,7 +54,7 @@ These additions enhance UX without deviating from requirements.
 
 ---
 
-## 2. Errors & Bugs
+## Question 3: Errors & Bugs
 
 ### Critical Issues: ✅ **None Found**
 
@@ -87,7 +101,7 @@ The code accurately reflects real PHP functionality and doesn't contain fictiona
 
 ---
 
-## 3. Accessibility (WCAG 2.1)
+## Question 4: Accessibility (WCAG 2.1)
 
 ### Overall Assessment: ⚠️ **Good with Notable Gaps**
 
@@ -147,18 +161,17 @@ The application demonstrates attention to accessibility but has several WCAG 2.1
 
 ### Testing Methods Used in Evaluation:
 
-1. **Manual Code Review**: Examined HTML structure, ARIA attributes, semantic elements
-2. **Keyboard Navigation Test**: Verified Tab order and keyboard operability
-3. **Screen Reader Simulation**: Analyzed alt text and label associations
-4. **WCAG 2.1 Checklist**: Cross-referenced against WCAG Level A and AA standards
-5. **Bootstrap Framework Analysis**: Evaluated Bootstrap's built-in accessibility features
+1. **Manual Code Review**: Examined HTML structure, ARIA attributes, labels, and error messaging
+2. **Heuristic Keyboard Review**: Assessed tab order and focus flow based on markup structure (no interactive testing tools used)
+3. **WCAG 2.1 Checklist**: Cross-referenced against Level A and AA criteria
+4. **Bootstrap Framework Review**: Considered Bootstrap's default accessibility behaviors and patterns
 
 ### Accessibility Score: **6.5/10**
 - Good semantic foundation but lacking in error message associations and descriptive alt text
 
 ---
 
-## 4. HTML5 Standards
+## Question 5: HTML5 Standards
 
 ### Overall Assessment: ✅ **Good**
 
@@ -208,7 +221,7 @@ All files declare doctype correctly within the `render_header()` function - **PA
 
 ---
 
-## 5. Responsive Design
+## Question 6: Responsive Design
 
 ### Overall Assessment: ✅ **Excellent**
 
@@ -292,7 +305,7 @@ Extensive use of Bootstrap's responsive classes:
 
 ---
 
-## 6. Features & Functionality
+## Question 7: Features & Functionality
 
 ### Overall Assessment: ✅ **Excellent**
 
@@ -422,7 +435,7 @@ $otherUsers = get_other_users($userId);
 
 ---
 
-## 7. Security and Form Processing
+## Question 8: Security and Form Processing
 
 ### Overall Assessment: ⚠️ **Good with Important Disclaimers**
 
@@ -697,7 +710,7 @@ if (!is_valid_email($email)) {
 
 ---
 
-## 8. Summary and Overall Impression
+## Question 9: Summary and Overall Impression
 
 ### Overall Assessment: ✅ **7.5/10 - Very Good for a Prototype**
 
